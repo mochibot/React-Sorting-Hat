@@ -1,0 +1,4 @@
+[build]
+base = "react-sorting-hat/"
+publish = "react-sorting-hat/build/"
+command = "yarn build"
