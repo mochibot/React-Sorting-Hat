@@ -25,7 +25,7 @@ class App extends React.Component {
 
   submitHandler = (event) => {
     event.preventDefault();
-    if (!this.state.input) {
+    if (this.state.input === '') {
       alert("Please select an answer");
     } else {
       let result = quizQuestions[this.state.index].answers[this.state.input].content;
