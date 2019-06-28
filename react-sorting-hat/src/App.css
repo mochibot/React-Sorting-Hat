@@ -6,6 +6,36 @@
   background-color: #222;
   padding: 10px;
   color: white;
+  width: 100%;
+}
+
+.start {
+  padding: 0;
+  width: 100%;
+}
+
+.start img{
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+} 
+
+.start img:hover {
+  filter: brightness(80%);
+}
+
+.start div {
+  width: 100%;
+  position: absolute;
+  color: white;
+  top: 20vh;
+  font-size: 20px;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.quiz-content {
+  padding: 20px;
 }
 
 .quiz-content form {
@@ -35,6 +65,50 @@
 }
 
 .quiz-content form button:hover {
+  color: #222;
+  background: white;
+}
+
+.result {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.result .result-img {
+  width: 25%;
+}
+
+.result .result-img img {
+  width: 100%;
+} 
+
+.result .result-text{
+  width: 70%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.result .result-text div {
+  margin: 20px 0;
+}
+
+#to-home {
+  border: 2px solid #222;
+  border-radius: 10px;
+  background: #222;
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 6px 9px;
+  outline: none;
+  cursor: pointer;
+}
+
+#to-home:hover {
   color: #222;
   background: white;
 }

@@ -126,3 +126,31 @@ export const quizQuestions = [
     ]
   }
 ]
+
+
+export const houses = [
+  {
+    house: 'Gryffindor',
+    facts: 'Gryffindor values bravery, daring, nerve, and chivalry. Its emblematic animal is the lion and its colours are scarlet and gold. The founder of the house was Godric Gryffindor. Gryffindor corresponds to the element of Fire. The common room was located in one of the highest towers at Hogwarts, the entrance was situated on the seventh floor in the east wing of the castle and is guarded by a portrait of The Fat Lady. She permits entrance if given the correct password, which is changed numerous times throughout the school year.',
+    famousWizards: ['Albus Dumbledore', 'Harry Potter', 'Celestina Warbeck'],
+    imageURL: 'https://vignette.wikia.nocookie.net/harrypotter/images/e/ee/Gryffindor_Crest-0.jpg/'
+  },
+  {
+    house: 'Hufflepuff',
+    facts: 'Hufflepuff values hard work, dedication, patience, loyalty, and fair play. Its emblematic animal is the badger, and Yellow and Black are its colours. The founder of the house was Helga Hufflepuff. Hufflepuff corresponds to the element of earth. The Hufflepuff dormitories and common room are located somewhere in the basement, near the castle\'s kitchens. It can be accessed by tapping the barrel two from the bottom, middle of the second row in the rhythm of "Helga Hufflepuff" and is described as being a cosy and welcoming place with yellow hangings, fat armchairs, and underground tunnels that lead to the dormitories, which have perfectly round doors, similar to barrel tops.',
+    famousWizards: ['Hengist of Woodcroft', 'Newt Scamander', 'Artemisia Lufkin'],
+    imageURL: 'https://vignette.wikia.nocookie.net/harrypotter/images/6/62/Download_%289%29.jpg'
+  },
+  {
+    house: 'Ravenclaw',
+    facts: 'Ravenclaw values intelligence, knowledge, and wit. Its emblematic animal is the eagle, and its colours are blue and bronze. The founder of the house was Rowena Ravenclaw. Ravenclaw corresponds to the element of air. The Ravenclaw common room and dormitories are located in a tower on the west side of the castle. Ravenclaw students must answer a riddle as opposed to giving a password to enter their dormitories. This riddle, however, can be answered by non-Ravenclaws.',
+    famousWizards: ['Gilderoy Lockheart', 'Ignatia Wildsmith', 'Garrick Ollivander'],
+    imageURL: 'https://vignette.wikia.nocookie.net/harrypotter/images/2/28/Download_%284%29.jpg'
+  },
+  {
+    house: 'Slytherin',
+    facts: 'Slytherin house values ambition, cunning and resourcefulness and was founded by Salazar Slytherin. Its emblematic animal is the serpent, and its colours are emerald green and silver. The founder of the house was Salazar Slytherin. Slytherin corresponds roughly to the element of water. The Slytherin dormitories and common room are reached through a bare stone wall in the Dungeons. The Slytherin common room lies beneath the Black Lake. It is a long, low underground room with rough stone walls and silver lamps hanging from the ceiling.',
+    famousWizards: ['Merlin', 'Tom Riddle', 'Dolores Umbridge'],
+    imageURL: 'https://vignette.wikia.nocookie.net/harrypotter/images/7/72/Ccd53034-c798-452a-8032-f28e06250d8f.jpg'
+  }
+]
